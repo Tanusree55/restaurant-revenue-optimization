@@ -1,4 +1,7 @@
 # 🍽️ Restaurant Revenue & Profit Optimization
+## 🔥 Key Result
+
+> 📉 Despite generating ~8.8M in revenue, the business is largely loss-making due to poor unit economics.
 
 > 🚀 An end-to-end data analysis project exploring a simple but important question:
 > **Why do some businesses generate high revenue but still struggle to make profit?**
@@ -25,12 +28,13 @@ This project shows that:
 ---
 
 ## 📊 Visual Insights
+> Majority of transactions are loss-making, indicating a fundamentally unsustainable model.
 
 ### 📉 Profit Distribution
 
 > Most transactions fall into the loss-making zone — a clear sign of structural issues.
 
-![Profit Distribution](outputs/profit_distribution.png)
+![Profit Distribution](Outputs/profit_distribution.png)
 
 ---
 
@@ -38,7 +42,7 @@ This project shows that:
 
 > Orders peak around midday, showing strong time-based behavior.
 
-![Hourly Demand](outputs/hourly_demand.png)
+![Hourly Demand](Outputs/hourly_demand.png)
 
 ---
 
@@ -46,7 +50,7 @@ This project shows that:
 
 > A small number of products drive most of the revenue.
 
-![Top Products](outputs/top_products.png)
+![Top Products](Outputs/top_products.png)
 
 ---
 
@@ -147,6 +151,7 @@ Meaning:
 ---
 
 ## 🤖 Machine Learning (Support Layer)
+> Due to extreme class imbalance, the model is better suited as a screening tool rather than a reliable decision system.
 
 I built a Logistic Regression model to predict:
 
@@ -171,16 +176,18 @@ I built a Logistic Regression model to predict:
 * Pricing, cost, and commissions are the root issues
 
 ---
+## 📌 Why This Matters
+
+> Many businesses focus on growth metrics like revenue and orders, but without controlling costs and margins, growth can actually increase losses.
 
 ## 💡 What I Would Recommend
 
 If this were a real business, I would:
 
-* adjust pricing for high-volume items
-* remove or fix loss-making products
-* focus on profit, not just revenue
-* target customers based on profitability
-* optimize cost and commission structure
+- Increase prices or reduce costs for high-volume loss-making items
+- Remove consistently loss-making products from the menu
+- Shift KPIs from revenue → profit and margin
+- Focus retention efforts on profitable customers
 
 ---
 
